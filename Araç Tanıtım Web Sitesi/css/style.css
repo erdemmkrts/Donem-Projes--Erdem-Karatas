@@ -103,4 +103,40 @@ body {
   .model-card:hover {
     transform: scale(1.05);
   }
-    
+/* Detay Sayfası */
+.detay {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 40px 0;
+  }
+  
+  .detay img {
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(240, 192, 64, 0.15);
+  }
+  
+  .detay-bilgi {
+    max-width: 500px;
+    text-align: left;
+  }
+  
+  .detay-bilgi h2 {
+    color: #f0c040;
+    margin-bottom: 20px;
+  }
+  
+  .detay-bilgi ul {
+    list-style: none;
+    padding: 0;
+    line-height: 1.8;
+  }
+  
+  .detay-bilgi li {
+    border-bottom: 1px solid #333;
+    padding: 8px 0;
+  }
+      
