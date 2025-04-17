@@ -164,4 +164,20 @@ body {
     color: #f0c040;
     margin-bottom: 10px;
   }
-        
+/* Gece Modu Teması */
+.dark-mode {
+    background-color: #111;
+    color: #eee;
+  }
+  
+  .dark-mode header,
+  .dark-mode nav,
+  .dark-mode footer {
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #333;
+  }
+  
+  .dark-mode a {
+    color: #f0c040;
+  }
+          
