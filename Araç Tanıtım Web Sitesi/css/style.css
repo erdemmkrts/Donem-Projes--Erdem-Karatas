@@ -63,4 +63,44 @@ body {
     margin-top: 40px;
     border-top: 1px solid #333;
   }
+/* Model Kartları */
+.model-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
   
+  .model-card {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 16px;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(240, 192, 64, 0.1);
+  }
+  
+  .model-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .model-card h3 {
+    color: #f0c040;
+  }
+  
+  .model-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #f0c040;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .model-card:hover {
+    transform: scale(1.05);
+  }
+    
