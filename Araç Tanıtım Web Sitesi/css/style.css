@@ -139,4 +139,29 @@ body {
     border-bottom: 1px solid #333;
     padding: 8px 0;
   }
-      
+/* İpuçları Sayfası */
+.ipuclari {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 40px;
+  }
+  
+  .ipuclari article {
+    background-color: #222;
+    color: #f0f0f0;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(240, 192, 64, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .ipuclari article:hover {
+    transform: translateY(-5px);
+  }
+  
+  .ipuclari h2 {
+    color: #f0c040;
+    margin-bottom: 10px;
+  }
+        
