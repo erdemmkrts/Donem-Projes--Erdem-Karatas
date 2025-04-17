@@ -1,0 +1,66 @@
+/* Genel ayarlar */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Zemin siyah tonunda */
+    color: #f5f5f5; /* Açık gri yazılar */
+  }
+  
+  /* Header */
+  header {
+    background-color: #1f1f1f;
+    color: #f0c040; /* Altın sarısı başlık */
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid #333;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  nav ul li a {
+    color: #f0c040;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ffffff;
+  }
+  
+  /* Ana içerik */
+  main {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  main h2 {
+    color: #f0c040;
+  }
+  
+  main img {
+    margin-top: 20px;
+    border-radius: 12px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 20px rgba(240, 192, 64, 0.3); /* gold efekti */
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1a1a1a;
+    color: #888;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 1px solid #333;
+  }
+  
