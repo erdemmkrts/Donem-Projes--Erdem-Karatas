@@ -283,4 +283,21 @@ body {
     border-bottom: 1px solid #333;
     padding: 8px 0;
   }
+/* Navbar içinde sosyal medya ikonları */
+nav {
+    display: center;
+    justify-content: space-between;
+    align-items: center;
+  }
   
+  .social-icons a {
+    color: #f0c040;
+    margin-left: 15px;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #fff;
+  }
+    
