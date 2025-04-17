@@ -300,4 +300,29 @@ nav {
   .social-icons a:hover {
     color: #fff;
   }
+  .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .kesfet-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 25px;
+    background-color: #f0c040;
+    color: #121212;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 10px rgba(240, 192, 64, 0.3);
+  }
+  
+  .kesfet-btn:hover {
+    background-color: #e0b030;
+  }
+  
     
