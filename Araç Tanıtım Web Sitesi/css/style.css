@@ -325,4 +325,27 @@ nav {
     background-color: #e0b030;
   }
   
+  .header-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
+  }
+  
+  .header-center h1 {
+    font-size: 2rem;
+    color: gold;
+  }
+  
+  .header-center .logo {
+    width: 150px;
+    max-width: 100%;
+  }
+  
+  
+  .header-center .logo:hover {
+    transform: scale(1.1) rotate(5deg); 
+  }  
+    
     
