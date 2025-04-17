@@ -347,5 +347,17 @@ nav {
   .header-center .logo:hover {
     transform: scale(1.1) rotate(5deg); 
   }  
+
+
+  @media (max-width: 600px) {
+    .header-center .logo {
+      width: 50px;
+    }
+  
+    .header-center h1 {
+      font-size: 1.4rem;
+    }
+  }
+  
     
     
