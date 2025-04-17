@@ -44,4 +44,4 @@ iletisim.html  → İletişim sayfası
 ![image](https://github.com/user-attachments/assets/965b89a6-d7be-4657-8dc4-f4c24de21deb)
 
 
-Bu proje, web geliştirme becerilerini geliştirmek isteyenler için temel ve uygulanabilir bir örnektir. İstersen kendine göre özelleştirebilir, dinamik hale getirebilir veya veritabanı bağlantısı ekleyebilirsin.
+
